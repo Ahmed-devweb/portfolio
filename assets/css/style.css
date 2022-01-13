@@ -18,19 +18,19 @@
 }
 .primary-text-color
 {
-    color: #335284;
+    color: #cf0a1d;
 }
 .secondary-text-color
 {
-    color: #5ba7D1;
+    color: #EDEFEE;
 }
 .primary-color
 {
-    background-color: #335284 !important;
+    background-color: #41403C !important;
 }
 .secondary-color
 {
-    background-color: #5ba7D1;
+    background-color: #EDEFEE;
 }
 .tertiary-color
 {
@@ -48,12 +48,133 @@
 {
     text-align: center;
     padding-top: 80px;
+    background-image: url('../images/img1_back.jpg');
+    background-clip: border-box;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio
+{
+    background-image: url('../images/img1_back.jpg');
+    background-clip: border-box;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button
+{
+    display: block;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 35%;
+    background-color: #41403C;
+    margin: 30px auto;
+    transition: all 450ms;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover
+{
+    transform: scale(1.08);
+    background-color: black;
+    color: #cf0a1d;
+    text-decoration: none;
+}
+#contact
+{
+    background-color: black;
 }
 .text-presentation
 {
     font-size: 22px;
+    color: white;
+}
+.card
+{
+    transition: all 450ms;
 }
 .card:hover
 {
-    transform: scale(1.10);
+    transform: scale(1.06);
 }
+.card_img
+{
+    object-fit: cover;
+    max-height: 250px;
+}
+.t_hover
+{
+    transition: all 450ms;
+}
+.t_hover:hover
+{
+    transform: scale(1.06);
+}
+
+
+
+                                                    /* ANIMATION */
+
+
+.a_img
+{
+    opacity: 1; 
+    animation: 2s ease-in-out fade,2s ease-in-out rotate ;
+}
+
+.a_nameprofil
+{
+    transform: translateX(8px);
+    animation: 2s ease-in-out translation-name;
+}
+
+.a_lastnameprofil
+{
+    transform: translateX(-8px);
+    animation: 2s ease-in-out translation-lastname;
+}
+
+.a_descriptionprofil
+{
+    animation: translation-descriptionprofil 1s 2s linear both;
+}
+
+.a_presentation
+{
+    animation: 2s 4s ease-in-out presentation both;
+}
+.a_transversale
+{
+    animation: 2s ease-in-out fade alternate infinite ;
+}
+.a_bar
+{
+    animation: 2s ease-in-out bar infinite alternate;
+}
+
+
+
+@keyframes fade { from { opacity: 0;  }
+to   { opacity: 1; } }
+
+@keyframes rotate { from { transform: rotate(0deg); }
+to   { transform: rotate(360deg); } }
+
+@keyframes translation-lastname { from { transform: translateX(-700px); }
+to   { transform: translateX(-8px)} }
+
+@keyframes translation-name { from { transform: translateX(700px); }
+to   { transform: translateX(8px)} }
+
+@keyframes translation-descriptionprofil { 0%{opacity: 0;
+    transform: translate(0,50px)}
+    60%{opacity: 0;} }
+
+
+@keyframes presentation { from { transform: scale(0);}
+to   { transform: scale(1); } }
+
+@keyframes bar { from { width: 0;  }    }

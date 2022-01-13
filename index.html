@@ -17,16 +17,16 @@
           <header class="primary-color">
               <nav class="navbar fixed-top navbar-expand-lg navbar-light primary-color ">
                   <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
-                        <a class="nav-link text-white" href="#presentation"><strong>Présentation</strong></a>
-                        <a class="nav-link text-white" href="#competences"><strong>Compétences</strong></a>
-                        <a class="nav-link text-white" href="#portfolio"><strong>Portfolio</strong></a>
-                        <a class="nav-link text-white" href="#formations"><strong>Formations</strong></a>
-                        <a class="nav-link text-white" href="#contact"><strong>Contact</strong></a>
+                        <a class="nav-link text-white t_hover" href="#presentation"><strong>Présentation</strong></a>
+                        <a class="nav-link text-white t_hover" href="#competences"><strong>Compétences</strong></a>
+                        <a class="nav-link text-white t_hover" href="#portfolio"><strong>Portfolio</strong></a>
+                        <a class="nav-link text-white t_hover" href="#formations"><strong>Formations</strong></a>
+                        <a class="nav-link text-white t_hover" href="#contact"><strong>Contact</strong></a>
                       </div>
                     </div>
                   </div>
@@ -35,13 +35,13 @@
           <section id="presentation" class="pb-5">
             <div class="container-fluid">
               <div class="row justify-content-center">
-                  <img src="assets/images/profil.jpg"  class="col-6 col-sm-4 col-md-2 img-fluid img-thumbnail rounded-circle shadow " width="100px" >
-                  <h1 class="bold primary-text-color">Ahmed Aiman</h1>
-                  <h2 class="secondary-text-color">Apprenti développeur front-end</h2>
+                  <img src="assets/images/profil.jpg"  class="col-6 col-sm-4 col-md-2 img-fluid img-thumbnail rounded-circle shadow a_img  " width="100px" >
+                  <div class="bold primary-text-color d-flex justify-content-center"><h1 class="bold a_lastnameprofil font-heading">Ahmed</h1> <h1 class="bold a_nameprofil font-heading">Aiman</h1> </div>
+                  <h2 class="secondary-text-color a_descriptionprofil">Apprenti développeur front-end</h2>
               </div>
-              <div class="mt-5">
+              <div class="mt-5 a_presentation">
                 <h2 class="font-heading primary-text-color">Présentation</h2>
-                <p class="text-presentation w-50 mx-auto shadow  ">
+                <p class="text-presentation w-50 mx-auto shadow">
                   Grand passionné d’informatique et de nouvelles technologies j’ai donc décidé de mener ma vie professionnelle et technologique autour de ça.
                   Je peut gérer de nombreux projet et être autonome dans mon travail.  
                   Mes expériences m'ont appris à gérer le front-end mais aussi le back-end ainsi que le SEO de sites web. Que ce soit des maquettes à implémenter ou encore gérer une API, je saurai répondre à vos attentes. 
@@ -54,60 +54,66 @@
           <section id="competences" class="primary-color text-center pt-4 pb-4" >
               <h2 class="mb-4 font-heading text-white">Compétences</h2>
               <div class="container-fluid">
-                  <div class="row justify-content-around">
-                    <div class="col-md-5 secondary-color shadow mb-4 text-white ">
+                  <div class="row justify-content-around ">
+                    <div class="col-md-5 secondary-color shadow mb-4 text-black ">
                         <h3 class="mb-4"> <strong>Compétences techniques</strong></h3>
                         <div class="mb-3">
                           <p class="mb-1">HTML/CSS</p>
                           <div class="progress w-75 mx-auto ">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                           </div>
                         </div>
                         <div class="mb-3">
                           <p class="mb-1">Javascript</p>
                           <div class="progress w-75 mx-auto">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                           </div>
                         </div>
                         <div class="mb-3">
                           <p class="mb-1">Node.js</p>
                           <div class="progress w-75 mx-auto">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                          <p class="mb-1">React.js</p>
+                          <div class="progress w-75 mx-auto">
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                           </div>
                         </div>
                         <div class="mb-3">
                           <p class="mb-1">Vue.js</p>
                           <div class="progress w-75 mx-auto">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                           </div>
                         </div>
                         <div class="mb-3">
                           <p class="mb-1">Bootstrap</p>
                           <div class="progress w-75 mx-auto">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                           </div>
                         </div>
                         <div class="mb-3">
                           <p class="mb-1">Mongodb</p>
                           <div class="progress w-75 mx-auto">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                           </div>
                         </div>
                         <div class="mb-3">
                           <p class="mb-1">MySQL</p>
                           <div class="progress w-75 mx-auto">
-                            <div class="progress-bar dark-tertiary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            <div class="progress-bar dark-tertiary a_bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                           </div>
                         </div>
                         
                     </div>
-                    <div class="col-md-5 secondary-color shadow mb-4 text-white ">
+                    <div class="col-md-5 secondary-color shadow mb-4 text-black ">
                         <h3 class="mb-4"> <strong>Compétences transversales</strong></h3>
-                        <h4 class="mb-3">Rigueur</h4>
-                        <h4 class="mb-3">Autonomie</h4>
-                        <h4 class="mb-3">Travail en équipe</h4>
-                        <h4 class="mb-3">Gestion du stress</h4>
-                        <h4 class="mb-3">Adaptabilité</h4>
+                        <h4 class="mb-3 a_transversale">Rigueur</h4>
+                        <h4 class="mb-3 a_transversale">Autonomie</h4>
+                        <h4 class="mb-3 a_transversale">Travail en équipe</h4>
+                        <h4 class="mb-3 a_transversale">Gestion du stress</h4>
+                        <h4 class="mb-3 a_transversale">Adaptabilité</h4>
                     </div>
 
                   </div>
@@ -119,49 +125,59 @@
           <section id="portfolio" class="text-center pt-5 pb-5">
             <h2 class="mb-5 font-heading primary-text-color">Mes projets</h2>
             <div class="container-fluid">
+
               <div class="row justify-content-around">
-                <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-white" >
+                <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-black" >
+                <img class="card-img-top card_img" src="assets/images/Movind.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Movind</h5>
+                    <p class="card-text">Développement Front-end avec React du site de recherche de film Movind</p>
+                    <a target="_blank" href="https://ahmed-devweb.github.io/Movind/" class="button ">Voir le site</a>
+                  </div>
+                </div>
+
+                <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-black" >
                   <img class="card-img-top" src="assets/images/Reservia.PNG" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Reservia</h5>
                     <p class="card-text">Intégration d'un maquette en HTML/CSS sans framework</p>
-                    <a href="https://ahmed-oc.github.io/AhmedAiman_2_03032021/" class="btn btn-outline-light">Voir le site</a>
+                    <a target="_blank" href="https://ahmed-oc.github.io/AhmedAiman_2_03032021/" class="button">Voir le site</a>
                   </div>
                 </div>
 
-               <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-white" >
+              <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-black" >
                 <img class="card-img-top" src="assets/images/Ohmyfood.PNG" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Ohmyfood</h5>
                   <p class="card-text">Développement d'une maquette en HTML/CSS avec des effets CSS graphiques avancés à l'aide de SASS</p>
-                  <a href="https://ahmed-oc.github.io/AhmedAiman_3_03032021/" class="btn btn-outline-light">Voir le site</a>
+                  <a target="_blank" href="https://ahmed-oc.github.io/AhmedAiman_3_03032021/" class="button  ">Voir le site</a>
                 </div>
              </div>
 
-             <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-white" >
+             <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-black" >
               <img class="card-img-top" src="assets/images/Orinoco.PNG" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Orinoco</h5>
                 <p class="card-text">Développement de la partie front end du site e-commerce de vente de peluche Orinoco avec javascript et bootstrap</p>
-                <a href="https://github.com/Ahmed-OC/AhmedAiman_5_03032021" class="btn btn-outline-light">Voir le site (github)</a>
+                <a target="_blank" href="https://github.com/Ahmed-OC/AhmedAiman_5_03032021" class="button ">Voir le site (github)</a>
               </div>
            </div>
 
-           <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-white" >
+           <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-black" >
             <img class="card-img-top" src="assets/images/Piiquante.PNG" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Piiquante</h5>
               <p class="card-text">Développement de la partie back end et de la sécurisation du site d'evaluation de sauce piquante Piiquante avec javascript, Node.js, Express.js et mongoDb pour la base de donnée</p>
-              <a href="https://github.com/Ahmed-OC/AhmedAiman_6_03032021" class="btn btn-outline-light">Voir le site (github)</a>
+              <a target="_blank" href="https://github.com/Ahmed-OC/AhmedAiman_6_03032021" class="button ">Voir le site (github)</a>
             </div>
          </div>
 
-         <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-white" >
+         <div class="card col-12 col-md-5 mb-4 shadow secondary-color text-black" >
           <img class="card-img-top" src="assets/images/Groupomania.PNG" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Groupomania</h5>
             <p class="card-text">Développement back end, front end et de la sécurisation du réseau social Groupomania avec javascript, Bootstrap, Node.js, Express.js et MySQL</p>
-            <a href="https://github.com/Ahmed-OC/AhmedAiman_7_03032021" class="btn btn-outline-light">Voir le site (github)</a>
+            <a target="_blank" href="https://github.com/Ahmed-OC/AhmedAiman_7_03032021" class="button ">Voir le site (github)</a>
           </div>
               </div>
                  </div>
